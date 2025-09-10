@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 
         body{
-            background-color: black;
+            background-color: #111111;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,7 +19,7 @@
           gap: 10px;
         }
         .square{
-          background:#1D1D1D;
+          background:#1d1d1d;
           cursor: pointer;
          
           

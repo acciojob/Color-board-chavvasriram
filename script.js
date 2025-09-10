@@ -9,7 +9,7 @@
        const square=document.createElement("div")
        square.classList.add("square")
        square.addEventListener("mouseover",addRandomColor)
-       square.addEventListener("mouseleave",removecolor)
+       square.addEventListener("mouseout",removecolor)
        frag.appendChild(square)
       } 
       function addRandomColor(e){
