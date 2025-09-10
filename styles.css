@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+          display: grid;
+          grid-template-columns: repeat(40,1fr);
+          grid-template-rows: repeat(20,1fr);
+          height: 80%;
+          width: 80%;
+          gap: 10px;
+        }
+        .square{
+          background:#1D1D1D;
+          cursor: pointer;
+         
+          
+        }
